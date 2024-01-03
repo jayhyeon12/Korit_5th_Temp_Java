@@ -1,1 +1,1 @@
-# temp_java_study
+# java_study
