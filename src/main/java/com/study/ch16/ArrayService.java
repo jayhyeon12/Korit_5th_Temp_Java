@@ -34,17 +34,14 @@ class ArrayService {
 
         public String get(int index) {
             return strArray[index];
-
         }
 
-    }
-
-    public int indexOf(String str) {
-        if (str == null) {
-            return -1;
+        public int indexOf(String str) {
+            if (str == null) {
+                return -1;
         }
-        for (int i = 0; i < str.length; i++) {
-            if (str[i].equals(str)) {
+        for (int i = 0; i < strArray.length; i++) {
+            if (strArray[i].equals(str)) {
                 return i;
             }
         }

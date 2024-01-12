@@ -18,7 +18,7 @@ public class Car {
         return new CarBuilder();
     }
 
-    public static class CarBuilder {
+    public static class CarBuilder { // 내부 클래스
         private String model;
         private String color;
 
@@ -29,7 +29,6 @@ public class Car {
         public CarBuilder model(String model) {
             this.model = model;
             return this;
-
         }
 
         public CarBuilder color(String color) {

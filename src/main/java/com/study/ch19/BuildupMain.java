@@ -9,6 +9,12 @@ public class BuildupMain {
 
         System.out.println(c);
 
+        Member m = new Member("김종현", "01034216786");
+        Member m1 = Member.builder()
+                .phone("01034216786")
+                .name("")
+                .build();
+
     }
 
 }

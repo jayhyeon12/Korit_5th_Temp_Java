@@ -2,7 +2,6 @@ package com.study.ch14;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
@@ -15,7 +14,5 @@ public class Student {
 
     private String Phone;
     private int age;
-
-
 
 }

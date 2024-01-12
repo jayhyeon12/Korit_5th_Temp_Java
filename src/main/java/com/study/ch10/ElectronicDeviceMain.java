@@ -2,7 +2,7 @@ package com.study.ch10;
 
 public class ElectronicDeviceMain {
     public static void main(String[] args) {
-        //익명클래스:
+        //익명클래스: 이름이 없는 클래스로 메소드만 정의되는 일회성 클래스
         ElectronicDevice ed = new ElectronicDevice() {
             @Override
             void showDeviceState() {
