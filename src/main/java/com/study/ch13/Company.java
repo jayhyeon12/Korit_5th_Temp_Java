@@ -1,6 +1,6 @@
 package com.study.ch13;
 
-/** 싱글톤(static )
+/** 싱글톤(single tone)
  * Company 클래스를 싱글톤을 적용하여 작성
  */
 

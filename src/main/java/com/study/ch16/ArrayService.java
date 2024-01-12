@@ -6,7 +6,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 
-class ArrayService {
+public class ArrayService {
     private String[] strArray;
 
     public void add(String str) {
